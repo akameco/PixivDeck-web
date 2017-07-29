@@ -11,18 +11,26 @@ export default class Download extends Component {
           <Button>PixivDeck を無料ダウンロード</Button>
         </Center>
         <p className="version">Mac版</p>
-        <p>別のプラットフォーム向けのPixivDeckをダウンロード</p>
+        <a href="https://github.com/akameco/PixivDeck/releases/latest">
+          別のプラットフォーム向けのPixivDeckをダウンロード
+        </a>
         <style jsx>{`
           .top {
-            margin-top: 20px;
+            margin-top: 60px;
             display: flex;
             justify-content: center;
             flex-direction: column;
           }
 
-          p {
+          a {
             margin-top: 10px;
             color: #605454;
+            text-decoration: none;
+            cursor: pointer;
+          }
+
+          a:hover {
+            color: #4493ef;
           }
 
           .version {
