@@ -57,6 +57,19 @@ export default class Layout extends React.Component {
           <meta name="theme-color" content="#ffffff" />
         </Head>
         {this.props.children}
+        <style jsx global>
+          {`
+            html,
+            body,
+            * {
+              margin: 0;
+              padding: 0;
+            }
+            button {
+              border: none;
+            }
+          `}
+        </style>
       </main>
     )
   }
