@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<main>
+  <SideEffect(Head)>
+    <title>
+      Home page
+    </title>
+    <meta
+      charSet="utf-8"
+    />
+    <meta
+      content="width=device-width, initial-scale=1"
+      name="viewport"
+    />
+    <meta
+      content="next.jsを使った静的サイト。OGP対応確認中"
+      name="description"
+    />
+    <meta
+      content="Home Page"
+      property="og:title"
+    />
+    <meta
+      content="https://akameco.github.io/demo-next-static-export"
+      property="og:url"
+    />
+    <meta
+      content="https://akameco.github.io"
+      property="og:site_name"
+    />
+    <meta
+      content="next.jsを使った静的サイトです。"
+      property="og:description"
+    />
+    <meta
+      content="456581931407339"
+      property="fb:app_id"
+    />
+    <meta
+      content="summary"
+      name="twitter:card"
+    />
+    <meta
+      content="@akameco"
+      name="twitter:site"
+    />
+    <link
+      href="/static/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      href="/static/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="/static/favicon-16x16.png"
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      color="#5bbad5"
+      href="/static/safari-pinned-tab.svg"
+      rel="mask-icon"
+    />
+    <meta
+      content="#ffffff"
+      name="theme-color"
+    />
+  </SideEffect(Head)>
+</main>
+`;
