@@ -14,15 +14,21 @@ type Props = {
 export default class Center extends Component<DP, Props, void> {
   static defaultProps = { direction: 'column' }
   render() {
+    const { children, direction } = this.props
+    const cn = direction === 'column' ? 'center' : 'center row'
+
     return (
-      <div>
-        {this.props.children}
+      <div className={cn}>
+        {children}
         <style jsx>{`
-          div {
+          .center {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+          }
+          .row {
+            flex-direction: row;
           }
         `}</style>
       </div>

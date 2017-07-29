@@ -1,12 +1,16 @@
 // @flow
 import React, { Component } from 'react'
+import Logo from './Logo'
 
 export default class Header extends Component {
   render() {
     return (
       <header>
         <div className="container">
-          <h1>PixivDeck</h1>
+          <div className="logo">
+            <Logo />
+            <h1>PixivDeck</h1>
+          </div>
         </div>
         <style jsx>{`
           header {
@@ -15,8 +19,14 @@ export default class Header extends Component {
           }
           .container {
             margin: 0 auto;
-            padding: 0 20px;
             max-width: 760px;
+          }
+          .logo {
+            padding: 0 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
           }
           h1 {
             color: white;
