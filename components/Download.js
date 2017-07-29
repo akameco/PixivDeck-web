@@ -1,17 +1,51 @@
 // @flow
 import React, { Component } from 'react'
+import * as platfrom from 'platform'
 import Button from './Button'
 import Center from './Center'
+
+const version = '0.15.0'
+
+const macOS = `PixivDeck-${version}.dmg`
+const windonws = `PixivDeck-Setup-${version}.exe`
+const linux = `PixivDeck-${version}-x86_64.AppImage`
+
+const downloadLink = `https://github.com/akameco/PixivDeck/releases/download/v${version}`
+
+function getDownloadLink(family: string): string {
+  if (family === 'OS X') {
+    return `${downloadLink}/${macOS}`
+  } else if (family === 'Windows' || family === 'Windows XP') {
+    return `${downloadLink}/${windonws}`
+  }
+  return `${downloadLink}/${linux}`
+}
+
+function getOSText(family: string): string {
+  if (family === 'OS X') {
+    return 'Mac版'
+  } else if (family === 'Windows' || family === 'Windows XP') {
+    return 'Windows版'
+  }
+  return 'Linux版'
+}
 
 export default class Download extends Component {
   render() {
     return (
       <div className="top">
         <Center>
-          <Button>PixivDeck を無料ダウンロード</Button>
+          <a href={getDownloadLink(platfrom.os.family)}>
+            <Button>PixivDeck を無料ダウンロード</Button>
+          </a>
         </Center>
-        <p className="version">Mac版</p>
-        <a href="https://github.com/akameco/PixivDeck/releases/latest">
+        <p className="version">
+          {getOSText(platfrom.os.family)}
+        </p>
+        <a
+          href="https://github.com/akameco/PixivDeck/releases/latest"
+          className="other"
+        >
           別のプラットフォーム向けのPixivDeckをダウンロード
         </a>
         <style jsx>{`
@@ -22,14 +56,14 @@ export default class Download extends Component {
             flex-direction: column;
           }
 
-          a {
+          .other {
             margin-top: 10px;
             color: #605454;
             text-decoration: none;
             cursor: pointer;
           }
 
-          a:hover {
+          .other:hover {
             color: #4493ef;
           }
 
