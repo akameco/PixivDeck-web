@@ -31,7 +31,19 @@ export default class Index extends Component {
                 </p>
               </Center>
             </div>
-            <video src={`${STATIC_PATH}/column.mp4`} loop autoPlay />
+            <video
+              alt="https://gyazo.com/f34004a49651f2411902eeb3948b5280"
+              width="504"
+              autoPlay
+              muted
+              loop
+              playsinline
+            >
+              <source
+                src="https://i.gyazo.com/f34004a49651f2411902eeb3948b5280.mp4"
+                type="video/mp4"
+              />
+            </video>
           </div>
 
           <div className="benefit">
@@ -47,11 +59,18 @@ export default class Index extends Component {
             </div>
             <Center direction="row">
               <video
-                src={`${STATIC_PATH}/filter1.mp4`}
-                height="500"
-                loop
+                alt="https://gyazo.com/4ff409d148ef3b87be7413be8ca9e952"
+                width="414"
                 autoPlay
-              />
+                muted
+                loop
+                playsinline
+              >
+                <source
+                  src="https://i.gyazo.com/4ff409d148ef3b87be7413be8ca9e952.mp4"
+                  type="video/mp4"
+                />
+              </video>
             </Center>
           </div>
 
@@ -63,7 +82,19 @@ export default class Index extends Component {
               </Center>
             </div>
             <Center direction="row">
-              <video src={`${STATIC_PATH}/bookmark.mp4`} loop autoPlay />
+              <video
+                alt="https://gyazo.com/74579a531ef5a0a2e1c50ac79f203dc0"
+                width="612"
+                autoPlay
+                muted
+                loop
+                playsinline
+              >
+                <source
+                  src="https://i.gyazo.com/74579a531ef5a0a2e1c50ac79f203dc0.mp4"
+                  type="video/mp4"
+                />
+              </video>
             </Center>
           </div>
 
