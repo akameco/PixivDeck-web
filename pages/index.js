@@ -152,15 +152,19 @@ export default class Index extends Component {
           .row {
             flex-direction: column;
           }
-          @media screen and (max-width: 770px) {
-            .benefit {
-              flex-direction: column;
-            }
-          }
-          .row video {
+          video {
             margin-left: 20px;
             margin-right: 20px;
             max-width: 90%;
+            max-height: 600px;
+          }
+          @media screen and (max-width: 770px) {
+            video {
+              max-height: 500px;
+            }
+            .benefit {
+              flex-direction: column;
+            }
           }
           .benefit h2 {
             font-size: 36px;
