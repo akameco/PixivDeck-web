@@ -1,9 +1,9 @@
 {
-  "name": "demo-next-static-export",
+  "name": "PixivDeck-web",
   "version": "0.0.0",
   "description": "demo app",
   "license": "MIT",
-  "repository": "akameco/demo-next-static-export",
+  "repository": "akameco/PixivDeck-web",
   "author": {
     "name": "akameco",
     "email": "akameco.t@gmail.com",
