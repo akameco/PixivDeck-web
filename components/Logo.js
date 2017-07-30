@@ -1,13 +1,12 @@
 // @flow
 import React, { Component } from 'react'
-
-const staticPath = process.env.STATIC_PATH || '/static'
+import { STATIC_PATH } from '../utils/getPath'
 
 export default class Logo extends Component {
   render() {
     return (
       <div>
-        <img src={`${staticPath}/logo.png`} />
+        <img src={`${STATIC_PATH}/logo.png`} />
         <style jsx>{`
           img {
             width: 44px;

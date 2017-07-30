@@ -7,9 +7,7 @@ import Download from '../components/Download'
 import Center from '../components/Center'
 import Title from '../components/Title'
 import DemoVideo from '../components/DemoVideo'
-
-const prod = process.env.NODE_ENV === 'production'
-const staticPath = prod ? '/PixivDeck-web/static' : '/static'
+import { STATIC_PATH } from '../utils/getPath'
 
 export default class Index extends Component {
   render() {
@@ -33,7 +31,7 @@ export default class Index extends Component {
                 </p>
               </Center>
             </div>
-            <video src={`${staticPath}/column.mp4`} loop autoPlay />
+            <video src={`${STATIC_PATH}/column.mp4`} loop autoPlay />
           </div>
 
           <div className="benefit">
@@ -49,7 +47,7 @@ export default class Index extends Component {
             </div>
             <Center direction="row">
               <video
-                src={`${staticPath}/filter1.mp4`}
+                src={`${STATIC_PATH}/filter1.mp4`}
                 height="500"
                 loop
                 autoPlay
@@ -65,7 +63,7 @@ export default class Index extends Component {
               </Center>
             </div>
             <Center direction="row">
-              <video src={`${staticPath}/bookmark.mp4`} loop autoPlay />
+              <video src={`${STATIC_PATH}/bookmark.mp4`} loop autoPlay />
             </Center>
           </div>
 
@@ -84,7 +82,7 @@ export default class Index extends Component {
           </div>
           <div className="benefit row">
             <h2>PixivDeckを入手</h2>
-            <img src={`${staticPath}/logo.png`} className="logo" />
+            <img src={`${STATIC_PATH}/logo.png`} className="logo" />
             <Download />
           </div>
         </Container>
