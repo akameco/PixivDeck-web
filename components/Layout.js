@@ -1,6 +1,7 @@
 // @flow
 import React from 'react'
 import Head from 'next/head'
+import { initGA, logPageView } from '../utils/analytics'
 
 type Props = {
   children?: React.Element<*>,
@@ -10,6 +11,13 @@ const staticPath = process.env.STATIC_PATH || '/static'
 
 export default class Layout extends React.Component {
   props: Props
+  componentDidMount() {
+    if (!window.IS_GA_INIT) {
+      initGA()
+      window.IS_GA_INIT = true
+    }
+    logPageView()
+  }
   render() {
     return (
       <main>
