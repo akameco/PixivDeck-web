@@ -5,5 +5,5 @@ module.exports = {
   exportPathMap() {
     return { '/': { page: '/' } }
   },
-  assetPrefix: dev ? 'http://localhost:3000' : '/PixivDeck-web/',
+  assetPrefix: dev ? 'http://localhost:3000' : '/PixivDeck-web',
 }
