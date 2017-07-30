@@ -38,12 +38,12 @@ export default class Layout extends React.Component {
 
           <meta
             name="description"
-            content="PixivDeck: TweetDeckライクな高機能pixivクライアント。無料ダウンロード。カラムベースでたくさんのイラストを一度に閲覧。ワンクリックブックマーク。ブックマークフィルタ。新着のデスクトップ通知。閲覧履歴等多くの機能がサポートされてます。"
+            content="マルチカラムでたくさんのイラストを一度に閲覧。無料ダウンロード。ワンクリックブックマーク。ブックマークフィルタ。新着のデスクトップ通知。閲覧履歴等多くの機能がサポートされてます。"
           />
 
           <meta
             property="og:description"
-            content="PixivDeck: TweetDeckライクな高機能pixivクライアント。無料ダウンロード。カラムベースでたくさんのイラストを一度に閲覧。ワンクリックブックマーク。ブックマークフィルタ。新着のデスクトップ通知。閲覧履歴等多くの機能がサポートされてます。"
+            content="マルチカラムでたくさんのイラストを一度に閲覧。無料ダウンロード。ワンクリックブックマーク。ブックマークフィルタ。新着のデスクトップ通知。閲覧履歴等多くの機能がサポートされてます。"
           />
 
           <meta property="og:type" content="website" />
