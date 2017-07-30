@@ -1,62 +1,89 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`snapshot 1`] = `
-<main>
+<main
+  data-jsx={2168100380}
+>
   <SideEffect(Head)>
-    <title>
+    <title
+      data-jsx={2168100380}
+    >
       Home page
     </title>
     <meta
       charSet="utf-8"
+      data-jsx={2168100380}
     />
     <meta
       content="width=device-width, initial-scale=1"
+      data-jsx={2168100380}
       name="viewport"
     />
     <meta
-      content="next.jsを使った静的サイト。OGP対応確認中"
-      name="description"
-    />
-    <meta
-      content="Home Page"
+      content="PixivDeck: TweetDeckライクな高機能pixivクライアント"
+      data-jsx={2168100380}
       property="og:title"
     />
     <meta
-      content="https://akameco.github.io/demo-next-static-export"
+      content="https://akameco.github.io/PixivDeck-web"
+      data-jsx={2168100380}
       property="og:url"
     />
     <meta
       content="https://akameco.github.io"
+      data-jsx={2168100380}
       property="og:site_name"
     />
     <meta
-      content="next.jsを使った静的サイトです。"
+      content="PixivDeck: TweetDeckライクな高機能pixivクライアント。無料ダウンロード。カラムベースでたくさんのイラストを一度に閲覧。ワンクリックブックマーク。ブックマークフィルタ。新着のデスクトップ通知。閲覧履歴等多くの機能がサポートされてます。"
+      data-jsx={2168100380}
+      name="description"
+    />
+    <meta
+      content="PixivDeck: TweetDeckライクな高機能pixivクライアント。無料ダウンロード。カラムベースでたくさんのイラストを一度に閲覧。ワンクリックブックマーク。ブックマークフィルタ。新着のデスクトップ通知。閲覧履歴等多くの機能がサポートされてます。"
+      data-jsx={2168100380}
       property="og:description"
     />
     <meta
-      content="456581931407339"
+      content="website"
+      data-jsx={2168100380}
+      property="og:type"
+    />
+    <meta
+      content="https://akameco.github.io/PixivDeck-web/static/ogp.png"
+      data-jsx={2168100380}
+      property="og:image"
+    />
+    <meta
+      content="161451777749561"
+      data-jsx={2168100380}
       property="fb:app_id"
     />
     <meta
-      content="summary"
+      content="photo"
+      data-jsx={2168100380}
       name="twitter:card"
     />
     <meta
       content="@akameco"
+      data-jsx={2168100380}
       name="twitter:site"
     />
     <link
+      data-jsx={2168100380}
       href="/static/apple-touch-icon.png"
       rel="apple-touch-icon"
       sizes="180x180"
     />
     <link
+      data-jsx={2168100380}
       href="/static/favicon-32x32.png"
       rel="icon"
       sizes="32x32"
       type="image/png"
     />
     <link
+      data-jsx={2168100380}
       href="/static/favicon-16x16.png"
       rel="icon"
       sizes="16x16"
@@ -64,13 +91,19 @@ exports[`snapshot 1`] = `
     />
     <link
       color="#5bbad5"
+      data-jsx={2168100380}
       href="/static/safari-pinned-tab.svg"
       rel="mask-icon"
     />
     <meta
       content="#ffffff"
+      data-jsx={2168100380}
       name="theme-color"
     />
   </SideEffect(Head)>
+  <_class
+    css="html,body,*{margin:0;padding:0}button{border:none}"
+    styleId={2168100380}
+  />
 </main>
 `;
