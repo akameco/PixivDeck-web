@@ -18,7 +18,11 @@ export default class Index extends Component {
           <div className="top">
             <Center>
               <Title />
-              <DemoVideo videoId="DsL9NC8cWVE" />
+              <img
+                src={`${STATIC_PATH}/ogp.png`}
+                alt="top image"
+                className="top-image"
+              />
             </Center>
           </div>
           <Download />
@@ -98,7 +102,7 @@ export default class Index extends Component {
             </Center>
           </div>
 
-          <div className="benefit">
+          <div className="benefit row">
             <div className="text">
               <h2>他にもいろんな機能がたくさん</h2>
               <ul>
@@ -110,6 +114,7 @@ export default class Index extends Component {
                 <li>自動アップデート</li>
               </ul>
             </div>
+            <DemoVideo videoId="DsL9NC8cWVE" />
           </div>
           <div className="benefit row">
             <h2>PixivDeckを入手</h2>
@@ -118,6 +123,9 @@ export default class Index extends Component {
           </div>
         </Container>
         <style jsx>{`
+          .top-image {
+            width: 100%;
+          }
           .logo {
             max-width: 150px;
           }
@@ -127,6 +135,7 @@ export default class Index extends Component {
             flex-direction: column;
             font-size: 16px;
             margin-left: 60px;
+            margin-bottom: 20px;
           }
           li {
           }

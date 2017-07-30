@@ -6,40 +6,43 @@ exports[`snapshot 1`] = `
   <Container>
     <div
       className="top"
-      data-jsx={815530289}
+      data-jsx={1902401052}
     >
       <Center
         direction="column"
       >
         <Title />
-        <DemoVideo
-          videoId="DsL9NC8cWVE"
+        <img
+          alt="top image"
+          className="top-image"
+          data-jsx={1902401052}
+          src="/static/ogp.png"
         />
       </Center>
     </div>
     <Download />
     <div
       className="benefit row"
-      data-jsx={815530289}
+      data-jsx={1902401052}
     >
       <div
         className="text"
-        data-jsx={815530289}
+        data-jsx={1902401052}
       >
         <Center
           direction="column"
         >
           <h2
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             マルチカラム
           </h2>
           <p
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             ブックマークと新着イラストとランキング。 
             <br
-              data-jsx={815530289}
+              data-jsx={1902401052}
             />
             すべてを一度に閲覧できます。
           </p>
@@ -48,14 +51,14 @@ exports[`snapshot 1`] = `
       <video
         alt="https://gyazo.com/f34004a49651f2411902eeb3948b5280"
         autoPlay={true}
-        data-jsx={815530289}
+        data-jsx={1902401052}
         loop={true}
         muted={true}
         playsinline={true}
         width="504"
       >
         <source
-          data-jsx={815530289}
+          data-jsx={1902401052}
           src="https://i.gyazo.com/f34004a49651f2411902eeb3948b5280.mp4"
           type="video/mp4"
         />
@@ -63,30 +66,30 @@ exports[`snapshot 1`] = `
     </div>
     <div
       className="benefit"
-      data-jsx={815530289}
+      data-jsx={1902401052}
     >
       <div
         className="text"
-        data-jsx={815530289}
+        data-jsx={1902401052}
       >
         <Center
           direction="column"
         >
           <h2
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             高度なフィルタ
           </h2>
           <p
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             1000users入りの画像が見たい？ PixivDeckなら一瞬で切り替え。
             <br
-              data-jsx={815530289}
+              data-jsx={1902401052}
             />
             users入りタグが存在しない？
             <br
-              data-jsx={815530289}
+              data-jsx={1902401052}
             />
             大丈夫。ブックマーク数でフィルタ可能です
           </p>
@@ -98,14 +101,14 @@ exports[`snapshot 1`] = `
         <video
           alt="https://gyazo.com/4ff409d148ef3b87be7413be8ca9e952"
           autoPlay={true}
-          data-jsx={815530289}
+          data-jsx={1902401052}
           loop={true}
           muted={true}
           playsinline={true}
           width="414"
         >
           <source
-            data-jsx={815530289}
+            data-jsx={1902401052}
             src="https://i.gyazo.com/4ff409d148ef3b87be7413be8ca9e952.mp4"
             type="video/mp4"
           />
@@ -114,22 +117,22 @@ exports[`snapshot 1`] = `
     </div>
     <div
       className="benefit row"
-      data-jsx={815530289}
+      data-jsx={1902401052}
     >
       <div
         className="text"
-        data-jsx={815530289}
+        data-jsx={1902401052}
       >
         <Center
           direction="column"
         >
           <h2
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             ワンクリックブックマーク
           </h2>
           <p
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             お気に入りのイラストを見つけたらワンクリックでブックマーク。
           </p>
@@ -141,14 +144,14 @@ exports[`snapshot 1`] = `
         <video
           alt="https://gyazo.com/74579a531ef5a0a2e1c50ac79f203dc0"
           autoPlay={true}
-          data-jsx={815530289}
+          data-jsx={1902401052}
           loop={true}
           muted={true}
           playsinline={true}
           width="612"
         >
           <source
-            data-jsx={815530289}
+            data-jsx={1902401052}
             src="https://i.gyazo.com/74579a531ef5a0a2e1c50ac79f203dc0.mp4"
             type="video/mp4"
           />
@@ -156,74 +159,77 @@ exports[`snapshot 1`] = `
       </Center>
     </div>
     <div
-      className="benefit"
-      data-jsx={815530289}
+      className="benefit row"
+      data-jsx={1902401052}
     >
       <div
         className="text"
-        data-jsx={815530289}
+        data-jsx={1902401052}
       >
         <h2
-          data-jsx={815530289}
+          data-jsx={1902401052}
         >
           他にもいろんな機能がたくさん
         </h2>
         <ul
-          data-jsx={815530289}
+          data-jsx={1902401052}
         >
           <li
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             デスクトップ通知
           </li>
           <li
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             オリジナルサイズの画像のダウンロード
           </li>
           <li
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             閲覧履歴
           </li>
           <li
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             NGキーワード
           </li>
           <li
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             English サポート
           </li>
           <li
-            data-jsx={815530289}
+            data-jsx={1902401052}
           >
             自動アップデート
           </li>
         </ul>
       </div>
+      <DemoVideo
+        videoId="DsL9NC8cWVE"
+      />
     </div>
     <div
       className="benefit row"
-      data-jsx={815530289}
+      data-jsx={1902401052}
     >
       <h2
-        data-jsx={815530289}
+        data-jsx={1902401052}
       >
         PixivDeckを入手
       </h2>
       <img
         className="logo"
-        data-jsx={815530289}
+        data-jsx={1902401052}
         src="/static/logo.png"
       />
       <Download />
     </div>
   </Container>
   <_class
-    css=".logo[data-jsx=\\"815530289\\"]{max-width:150px}ul[data-jsx=\\"815530289\\"]{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font-size:16px;margin-left:60px}.top[data-jsx=\\"815530289\\"]{margin-top:20px;margin-bottom:30px}.benefit[data-jsx=\\"815530289\\"]{margin-top:100px;margin-bottom:40px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.benefit[data-jsx=\\"815530289\\"]>*[data-jsx=\\"815530289\\"]{margin-left:20px;margin-right:20px}.benefit[data-jsx=\\"815530289\\"]:last-child{margin-bottom:180px}.row[data-jsx=\\"815530289\\"]{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}video[data-jsx=\\"815530289\\"]{margin-left:20px;margin-right:20px;max-width:90%;max-height:600px}@media screen and (max-width:770px){video[data-jsx=\\"815530289\\"]{max-height:500px}.benefit[data-jsx=\\"815530289\\"]{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}}.benefit[data-jsx=\\"815530289\\"] h2[data-jsx=\\"815530289\\"]{font-size:36px;margin-bottom:20px;font-weight:300;line-height:1.25}.benefit[data-jsx=\\"815530289\\"] p[data-jsx=\\"815530289\\"]{margin-bottom:30px}.text[data-jsx=\\"815530289\\"]{margin:0 10px}.text[data-jsx=\\"815530289\\"] p[data-jsx=\\"815530289\\"]{font-size:14px}p[data-jsx=\\"815530289\\"]{font-size:20px;color:#5a5252}"
-    styleId={815530289}
+    css=".top-image[data-jsx=\\"1902401052\\"]{width:100%}.logo[data-jsx=\\"1902401052\\"]{max-width:150px}ul[data-jsx=\\"1902401052\\"]{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font-size:16px;margin-left:60px;margin-bottom:20px}.top[data-jsx=\\"1902401052\\"]{margin-top:20px;margin-bottom:30px}.benefit[data-jsx=\\"1902401052\\"]{margin-top:100px;margin-bottom:40px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.benefit[data-jsx=\\"1902401052\\"]>*[data-jsx=\\"1902401052\\"]{margin-left:20px;margin-right:20px}.benefit[data-jsx=\\"1902401052\\"]:last-child{margin-bottom:180px}.row[data-jsx=\\"1902401052\\"]{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}video[data-jsx=\\"1902401052\\"]{margin-left:20px;margin-right:20px;max-width:90%;max-height:600px}@media screen and (max-width:770px){video[data-jsx=\\"1902401052\\"]{max-height:500px}.benefit[data-jsx=\\"1902401052\\"]{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}}.benefit[data-jsx=\\"1902401052\\"] h2[data-jsx=\\"1902401052\\"]{font-size:36px;margin-bottom:20px;font-weight:300;line-height:1.25}.benefit[data-jsx=\\"1902401052\\"] p[data-jsx=\\"1902401052\\"]{margin-bottom:30px}.text[data-jsx=\\"1902401052\\"]{margin:0 10px}.text[data-jsx=\\"1902401052\\"] p[data-jsx=\\"1902401052\\"]{font-size:14px}p[data-jsx=\\"1902401052\\"]{font-size:20px;color:#5a5252}"
+    styleId={1902401052}
   />
 </Layout>
 `;

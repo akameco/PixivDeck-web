@@ -7,7 +7,7 @@ type State = {
   width: number,
 }
 
-const defaultWidth = 630
+const defaultWidth = 730
 
 type Props = {
   videoId: string,
@@ -45,7 +45,6 @@ export default class DemoVideo extends Component {
       width,
       playerVars: {
         rel: 0,
-        autoplay: 1,
         controls: 2,
         ...opts,
       },
