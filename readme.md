@@ -1,14 +1,6 @@
-# demo-next-static-export [![Build Status](https://travis-ci.org/akameco/demo-next-static-export.svg?branch=master)](https://travis-ci.org/akameco/demo-next-static-export)
+# PixivDeck web site [![Build Status](https://travis-ci.org/akameco/PixivDeck-web/branch=master)](https://travis-ci.org/akameco/PixivDeck-web)
 
-> demo app
-
-## Environment
-
-```
-$ export $GH_TOKEN=...
-$ export $GIT_EMAIL=...
-$ export $GIT_NAME=...
-```
+> PixivDeckのダウンロードサイト
 
 ## License
 
