@@ -5,11 +5,9 @@ import Youtube from 'react-youtube'
 
 type State = {
   width: number,
-  height: number,
 }
 
 const defaultWidth = 630
-const defaultHeight = 500
 
 type Props = {
   videoId: string,
@@ -20,7 +18,6 @@ export default class DemoVideo extends Component {
   props: Props
   state: State = {
     width: defaultWidth,
-    height: defaultHeight,
   }
 
   handleOnReady = (event: any) => {
@@ -33,28 +30,19 @@ export default class DemoVideo extends Component {
 
   handleResize = () => {
     const windowWidth = window.innerWidth
-    const windowHeight = window.innerHeight
-
     if (windowWidth < defaultWidth && windowWidth > 200) {
       this.setState({ width: windowWidth - 10 })
     } else {
       this.setState({ width: defaultWidth })
     }
-
-    if (windowHeight < defaultHeight && windowHeight > 200) {
-      this.setState({ height: windowHeight - 10 })
-    } else {
-      this.setState({ height: defaultHeight })
-    }
   }
 
   render() {
-    const { width, height } = this.state
+    const { width } = this.state
     const { videoId, opts = {} } = this.props
 
     const youtubeOpts = {
       width,
-      // height,
       playerVars: {
         rel: 0,
         autoplay: 1,
