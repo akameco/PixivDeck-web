@@ -159,6 +159,8 @@ export default class Index extends Component {
           .benefit h2 {
             font-size: 36px;
             margin-bottom: 20px;
+            font-weight: 300;
+            line-height: 1.25;
           }
           .benefit p {
             margin-bottom: 30px;

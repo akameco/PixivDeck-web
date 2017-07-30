@@ -1,6 +1,7 @@
 // @flow
 import React, { Component } from 'react'
 import Logo from './Logo'
+import Center from './Center'
 
 export default class Header extends Component {
   render() {
@@ -8,8 +9,10 @@ export default class Header extends Component {
       <header>
         <div className="container">
           <div className="logo">
-            <Logo />
-            <h1>PixivDeck</h1>
+            <Center direction="row">
+              <Logo />
+              <h1>PixivDeck</h1>
+            </Center>
           </div>
         </div>
         <style jsx>{`
@@ -29,6 +32,8 @@ export default class Header extends Component {
             cursor: pointer;
           }
           h1 {
+            font-size: 20px;
+            font-weight: 300;
             color: white;
           }
         `}</style>
