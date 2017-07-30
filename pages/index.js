@@ -8,7 +8,8 @@ import Center from '../components/Center'
 import Title from '../components/Title'
 import DemoVideo from '../components/DemoVideo'
 
-const staticPath = process.env.STATIC_PATH || '/static'
+const prod = process.env.NODE_ENV === 'production'
+const staticPath = prod ? '/PixivDeck-web/static' : '/static'
 
 export default class Index extends Component {
   render() {

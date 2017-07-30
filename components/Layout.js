@@ -7,7 +7,8 @@ type Props = {
   children?: React.Element<*>,
 }
 
-const staticPath = process.env.STATIC_PATH || '/static'
+const prod = process.env.NODE_ENV === 'production'
+const staticPath = prod ? '/PixivDeck-web/static' : '/static'
 
 export default class Layout extends React.Component {
   props: Props
