@@ -158,6 +158,9 @@ export default class Index extends Component {
           .benefit:last-child {
             margin-bottom: 180px;
           }
+          .benefit:last-child h2 {
+            margin-bottom: 100px;
+          }
           .row {
             flex-direction: column;
           }
