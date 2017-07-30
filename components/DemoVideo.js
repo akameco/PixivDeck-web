@@ -8,7 +8,7 @@ type State = {
   height: number,
 }
 
-const defaultWidth = 730
+const defaultWidth = 630
 const defaultHeight = 500
 
 type Props = {
@@ -25,6 +25,10 @@ export default class DemoVideo extends Component {
 
   handleOnReady = (event: any) => {
     event.target.setVolume(0)
+  }
+
+  componentDidMount() {
+    this.handleResize()
   }
 
   handleResize = () => {
@@ -50,7 +54,7 @@ export default class DemoVideo extends Component {
 
     const youtubeOpts = {
       width,
-      height,
+      // height,
       playerVars: {
         rel: 0,
         autoplay: 1,

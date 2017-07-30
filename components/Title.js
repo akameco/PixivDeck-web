@@ -11,20 +11,22 @@ export default class Title extends Component {
           <Logo />
           <h1>PixivDeck</h1>
         </Center>
-        <h2>TweetDeckライクな高機能pixivクライアント</h2>
+        <h2>マルチカラム多機能pixivクライアント</h2>
         <style jsx>{`
           .title {
-            margin-top: 15px;
-            margin-bottom: 30px;
+            width: 100%;
+            margin: 15px 5px 30px;
           }
 
           h1 {
-            font-size: 48px;
+            font-size: 3.2em;
             margin-left: 5px;
           }
 
           h2 {
-            font-size: 24px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 1.25em;
             font-weight: 300;
             color: #5a5252;
           }

@@ -21,13 +21,10 @@ export default class Layout extends React.Component {
     return (
       <main>
         <Head>
-          <title>PixivDeck - TweetDeckライクな高機能pixivクライアント</title>
+          <title>PixivDeck - マルチカラム多機能pixivクライアント</title>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta
-            property="og:title"
-            content="PixivDeck: TweetDeckライクな高機能pixivクライアント"
-          />
+          <meta property="og:title" content="PixivDeck: マルチカラム多機能pixivクライアント" />
           <meta
             property="og:url"
             content="https://akameco.github.io/PixivDeck-web"
