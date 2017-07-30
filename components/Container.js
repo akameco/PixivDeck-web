@@ -13,7 +13,7 @@ export default class Container extends Component {
         <style jsx>{`
           .container {
             margin: 0 auto;
-            max-width: 760px;
+            max-width: 960px;
             padding: 0 10px;
           }
         `}</style>

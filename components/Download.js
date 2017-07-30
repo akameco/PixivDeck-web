@@ -30,17 +30,30 @@ function getOSText(family: string): string {
   return 'Linux版'
 }
 
+type State = {
+  link: string,
+  text: string,
+}
+
 export default class Download extends Component {
+  state: State
+  componentWillMount() {
+    const { os: { family } } = platfrom
+    this.setState({
+      link: getDownloadLink(family),
+      text: getOSText(family),
+    })
+  }
   render() {
     return (
       <div className="top">
         <Center>
-          <a href={getDownloadLink(platfrom.os.family)}>
+          <a href={this.state.link}>
             <Button>PixivDeck を無料ダウンロード</Button>
           </a>
         </Center>
         <p className="version">
-          {getOSText(platfrom.os.family)}
+          {this.state.text}
         </p>
         <a
           href="https://github.com/akameco/PixivDeck/releases/latest"
@@ -50,7 +63,7 @@ export default class Download extends Component {
         </a>
         <style jsx>{`
           .top {
-            margin-top: 60px;
+            margin-top: 30px;
             display: flex;
             justify-content: center;
             flex-direction: column;

@@ -11,7 +11,13 @@ type State = {
 const defaultWidth = 730
 const defaultHeight = 500
 
+type Props = {
+  videoId: string,
+  opts?: Object,
+}
+
 export default class DemoVideo extends Component {
+  props: Props
   state: State = {
     width: defaultWidth,
     height: defaultHeight,
@@ -40,6 +46,7 @@ export default class DemoVideo extends Component {
 
   render() {
     const { width, height } = this.state
+    const { videoId, opts = {} } = this.props
 
     const youtubeOpts = {
       width,
@@ -48,6 +55,7 @@ export default class DemoVideo extends Component {
         rel: 0,
         autoplay: 1,
         controls: 2,
+        ...opts,
       },
     }
 
@@ -55,7 +63,7 @@ export default class DemoVideo extends Component {
       <div>
         <EventListener target="window" onResize={this.handleResize} />
         <Youtube
-          videoId="DsL9NC8cWVE"
+          videoId={videoId}
           opts={youtubeOpts}
           onReady={this.handleOnReady}
         />
