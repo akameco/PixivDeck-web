@@ -14,7 +14,7 @@ export default class Button extends Component {
             border-radius: 8px;
             padding: 17px 10px;
             cursor: pointer;
-            font-size: 14px;
+            font-size: 16px;
             outline: none;
           }
           button :hover {
