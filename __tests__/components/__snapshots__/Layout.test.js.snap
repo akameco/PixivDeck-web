@@ -8,7 +8,7 @@ exports[`snapshot 1`] = `
     <title
       data-jsx={2168100380}
     >
-      PixivDeck - TweetDeckライクな高機能pixivクライアント
+      PixivDeck - マルチカラム多機能pixivクライアント
     </title>
     <meta
       charSet="utf-8"
@@ -20,7 +20,7 @@ exports[`snapshot 1`] = `
       name="viewport"
     />
     <meta
-      content="PixivDeck: TweetDeckライクな高機能pixivクライアント"
+      content="PixivDeck: マルチカラム多機能pixivクライアント"
       data-jsx={2168100380}
       property="og:title"
     />
